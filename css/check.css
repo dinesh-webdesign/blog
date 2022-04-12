@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+nav{
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: #21c026;
+    color:#d71d1d;
+    display:inline-block;
+    width:20%;
+    height: 100vh;
+    float:left;
+    overflow:auto;
+}
+nav a{
+    display:inline-block;
+    
+    width:95%;
+    margin:0 auto;
+    border: 1px solid;
+    padding:5px 2px 5px 2px;
+    text-align: center;
+    height: 45px;
+    color:#ffffff;
+    text-decoration: none;
+    background:#0a140a
+}
+#good{
+    display:inline-block;
+    width: 70%;
+    height:100vh;
+    overflow: auto;
+    margin: 2%;
+}

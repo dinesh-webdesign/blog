@@ -1,0 +1,126 @@
+body{
+margin: 2%;
+padding: 2px;
+
+
+}
+header{
+    background-color:#a53737;
+    background: url(../images/flywheel.jpg);
+    height:150px;
+    padding: 2px;
+    
+}
+
+
+nav a{
+    display:inline-block;
+    margin:15px 10px 10px 65px ;
+    border: 10px 10px;
+    padding: 7px 3px 3px 3px;
+    -webkit-border-radius: 5px;
+    
+    background-color: rgb(253, 251, 251,0.3);
+    height: 30px;
+    width: 200px;
+    float:none;
+    text-decoration: none;
+    text-align: center;
+}
+.right{
+    float:right;
+    display:inline-block;
+    width: 74%;
+
+}
+.active{
+    background-color: #ffffff;
+    color:#2a1b7c;
+}
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    color:#ffffff;
+}
+.left{
+    display:inline-block;
+    float:left;
+    width: 25%;
+    height:100vh;
+    border: #000000 1px;
+    background-color: #255e0ae3;
+}
+
+
+
+.left img{
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    margin-right:75px;
+    margin-top:50px;
+    margin-bottom: 15px;
+    display:flex;
+    -webkit-align-content: center;
+    border: 2px solid black;
+    transition-property: border,transform,border-radius;
+    transition-duration: .25s;
+    transition-timing-function:ease;
+    transition-delay: .5s;
+    
+    
+}
+img:hover{
+    border: 2px dotted #ffffff;
+   
+    border-radius:15px;
+    box-shadow: #b3b3b3;
+    transform:rotate(360deg);
+}
+table{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    width:70%;
+    line-height: 35px;
+    
+    margin:0 auto;
+}
+th{
+    background-image: linear-gradient(#028539 10%,#b8f1a9 100%);
+    border-bottom: 3px solid #0c743a;
+    border-radius: 3px 3px 0 0;
+    color:#ffffff;
+}
+td{
+    padding: 2px;
+    border-radius:2px;
+    text-transform: capitalize;
+    text-shadow: 1px 0.5px  #b3b3b3;
+}
+tr{
+    background-color: rgb(230, 245, 173);
+}
+td:first-child{
+    text-align: left;
+}
+td:nth-child(2){
+    text-align:center;
+}
+td:nth-child(3){
+    text-align:center;
+}
+th:first-child{
+    text-align: left;
+}
+th:nth-child(2){
+    text-align:center;
+}
+th:nth-child(3){
+    text-align:center;
+}
+tr{
+    color: rgba(0,0,0,0.6);
+}
+tr:hover{
+    color: rgba(0,0,0,1);
+}
